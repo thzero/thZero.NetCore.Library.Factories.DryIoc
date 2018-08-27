@@ -4,18 +4,17 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<AssemblyName>thZero.NetCore.Library.Factories.DryIoc</AssemblyName>
 		<PackageId>thZero.NetCore.Library.Factories.DryIoc</PackageId>
-		<PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
 		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
 		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Factories.DryIoc</PackageProjectUrl>
 		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
-		<RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Factories.DryIoc</RepositoryUrl>
-		<RepositoryType>GitHub</RepositoryType>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Factories.DryIoc</RepositoryUrl>
 		<Authors>thZero.com</Authors>
-		<Copyright></Copyright>
 	</PropertyGroup>
 
 	<ItemGroup>
