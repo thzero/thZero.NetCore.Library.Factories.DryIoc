@@ -1,21 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFramework>net5.0</TargetFramework>
 		<AssemblyName>thZero.NetCore.Library.Factories.DryIoc</AssemblyName>
 		<PackageId>thZero.NetCore.Library.Factories.DryIoc</PackageId>
-    <Description></Description>
-    <Authors>thZero.com</Authors>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description></Description>
+		<Authors>thZero.com</Authors>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Factories.DryIoc</PackageProjectUrl>
-    <RepositoryType>GitHub</RepositoryType>
-    <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Factories.DryIoc</RepositoryUrl>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Factories.DryIoc</PackageProjectUrl>
+		<RepositoryType>GitHub</RepositoryType>
+		<RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Factories.DryIoc</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -23,11 +23,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="DryIoc" Version="4.0.7" />
+	  <PackageReference Include="DryIoc" Version="4.7.6" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\thZero.NetCore.Library\thZero.NetCore.Library.csproj" />
-	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\thZero.NetCore.Library\thZero.NetCore.Library.csproj" />
+  </ItemGroup>
 
 </Project>
