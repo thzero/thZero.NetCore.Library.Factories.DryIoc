@@ -23,7 +23,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="DryIoc" Version="4.8.6" />
+	  <PackageReference Include="DryIoc" Version="4.8.8" />
 	</ItemGroup>
 
   <ItemGroup>
